@@ -1,1 +1,1 @@
-C is Fun
+C is Funny
