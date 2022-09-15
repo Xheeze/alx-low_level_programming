@@ -3,7 +3,7 @@
 /**
 * _isalpha- Return 1 if c is a letter. lowercase or uppercase
 *
-*C value printed as integer
+*@c:character value printed as integer
 *
 * Return: Always 0.
 */
