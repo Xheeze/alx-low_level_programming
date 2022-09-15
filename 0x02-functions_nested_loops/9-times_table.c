@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* times_table: the times table function
-*
+* times_table: times table function
+* nested cycling
 */
 
 void times_table(void)

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* jack_bauer said main thing
+* jack_bauer - main thing
 *
 */
 
