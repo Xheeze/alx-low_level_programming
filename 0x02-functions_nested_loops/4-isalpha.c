@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
-* isalpha Return 1 if c is a letter. lowercase or uppercase
+* _isalpha- Return 1 if c is a letter. lowercase or uppercase
+* 
 * C printed as integer
+* 
 * Return: Always 0.
 */
 
