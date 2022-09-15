@@ -2,9 +2,9 @@
 
 /**
 * _isalpha- Return 1 if c is a letter. lowercase or uppercase
-* 
+*
 * C printed as integer
-* 
+*
 * Return: Always 0.
 */
 
@@ -21,5 +21,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-
 }
