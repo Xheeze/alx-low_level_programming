@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* times_table: times table function
+* times_table: multiplying
 * nested cycling
 */
 
