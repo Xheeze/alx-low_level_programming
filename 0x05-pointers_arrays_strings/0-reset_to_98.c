@@ -1,10 +1,9 @@
 #include "main.h"
 /**
-* 
-* takes a pointer to int "n"
+* reset_to_98 - takes a pointer to int "n"
 *
-* sets n to value 98
-*/ 
+* & sets n to value 98
+*/
 
 	void reset_to_98(int *n)
 	{
