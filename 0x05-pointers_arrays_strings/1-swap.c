@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
-* swap_int - rearranges integers
-*
-* @a: integer to be swapped
-* @b: integer to be swapped
-*/
+ * swap_int - swaps integers
+ *
+ * @a: first integer
+ * @b: second integer
+ */
 
-void swap_int(int a,int b)
+void swap_int(int *a, int *b)
 {
-	int *a=b;
-	int *b=a;
-	a=98;
-	b=42;
+	int c = *b;
+	int d = *a;
+
+	*a = c;
+	*b = d;
 }
