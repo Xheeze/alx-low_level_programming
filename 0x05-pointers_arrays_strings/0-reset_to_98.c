@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * reset_to_98 - takes a pointer to int "n"
-* n - integer variable
 * & sets (*n) integer container with value 98
+* n - integer variable
 */
 
 	void reset_to_98(int *n)
