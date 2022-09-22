@@ -2,7 +2,6 @@
 
 /**
  * _strlen - char string
- * @i: length varial\ble
  * @s: character to getstring
  * Return: returns length
  */
