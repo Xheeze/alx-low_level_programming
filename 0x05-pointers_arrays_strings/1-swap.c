@@ -7,10 +7,10 @@
 * @b: integer to be swapped
 */
 
-void int swap_int(*a, *b)
+void swap_int(int a,int b)
 {
-	*a=b
-	*b=a
-	a=98
-	b=42
+	int *a=b;
+	int *b=a;
+	a=98;
+	b=42;
 }
