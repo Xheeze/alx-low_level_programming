@@ -1,16 +1,18 @@
 #include "main.h"
-#include "2-strlen.c"
 /**
-*_puts- prints string to stdout
-*_putchar- function points to str
-*@str: string variable
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
 */
+
+
 void _puts(char *str)
 {
-	int i;
-	for (i=0; *(str+1) != '\0'; i++)
-	{
-		_putchar(*(str + i));
-	}
-	_putchar('\n');
+int i = 0;
+while (str[i])
+{
+	_putchar(str[i]);
+	i++;
+}
+_putchar('\n');
 }
