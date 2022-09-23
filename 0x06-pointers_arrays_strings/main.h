@@ -71,12 +71,12 @@ char *leet(char *s);
  */
 char *cap_string(char *s);
 /**
-* rot13- encryptor func;
+* rot13 - encryptor func;
 * @s: string ref
 * Return: return encrption value
 */
 char *rot13(char *s);
-
+/* print_number - integer to stdout*/
 void print_number(int n);
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
