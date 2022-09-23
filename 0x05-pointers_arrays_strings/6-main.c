@@ -1,21 +1,15 @@
 #include "main.h"
+
 /**
- * puts2 - prints a string, followed by a new line,
- * @str: pointer to the string to print
- * Return: void
-*/
-
-void puts2(char *str)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-	if (i % 2 == 0)
-	{
-		_putchar(str[i]);
-	}
+    char *str;
 
-	i++;
-}
-_putchar('\n');
+    str = "0123456789";
+    puts2(str);
+    return (0);
 }
