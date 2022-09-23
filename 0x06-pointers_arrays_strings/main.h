@@ -70,7 +70,11 @@ char *leet(char *s);
  * Return: return the string
  */
 char *cap_string(char *s);
-
+/**
+* rot13- encryptor func;
+* @s: string ref
+* Return: return encrption value
+*/
 char *rot13(char *s);
 
 void print_number(int n);
