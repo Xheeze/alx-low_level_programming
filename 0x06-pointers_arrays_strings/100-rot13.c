@@ -2,10 +2,9 @@
 
 /**
 * @s: encryption string
-* return value type  char
-*
 * rot13 - string encoder function
-*/
+* return value type char
+* /
 
 char *rot13(char *s)
 {
