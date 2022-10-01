@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*prints out its own name
+*main: prints out its own name
 *@argc: arguments counter
 *@argv: argument vector for ""
 *Returns nothing
