@@ -6,9 +6,9 @@
 * @s1: string1
 * @s2: string2
 * @n: bytes setter
-* 
-* 
-* 
+*  
+* return NULL on failure.
+* If n >= len s2, use s2
 * returns pointer string
 */
 
