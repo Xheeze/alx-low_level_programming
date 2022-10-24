@@ -1,1 +1,1 @@
-C is Funny
+Low Level C programming

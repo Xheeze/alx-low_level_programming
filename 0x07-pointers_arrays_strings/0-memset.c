@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
-* _memset - store value in memory function
+* memset - store const value in memory function
 *
 * @s: pointer to int
 * @b: const bytes stored
 * @n: unsigned integer
 *
-* returns null
+* returns a pointer to the memory area @s
 */
 
-void char *_memset(char *s, char b, unsigned int n);
+void char _memset(char *s, char b, unsigned int n);
 {
 	unsigned int i;
 

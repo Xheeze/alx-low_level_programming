@@ -4,9 +4,9 @@
 * main- function to print out program name
 * @argc: arguments counter
 * @argv: argument vector for ""
-* Return: Always 0 (Success)
+* Returns 0.
 */
-int main(void argc, char *argv[])
+int main(void int argc, char *argv[])
 {
 	argc;
 	printf("%s\n", argv[0]);
